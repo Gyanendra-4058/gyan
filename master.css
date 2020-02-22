@@ -3,19 +3,19 @@
     border: 1px solid;
     border-collapse: collapse;
 }
-.td{
+td{
     padding: 15px;
     border: 1px solid #a4a4a4;
     height: 30px;
     align: center;
 }
-.th{
+th{
     padding: 15px;
     border: 1px solid #a4a4a4;
     height: 30px;
     align: center;
 }
-.footer{ background-color: #000; 
+footer{ background-color: #000; 
          color:#fff;
          font-size:14px; }
 #left{
