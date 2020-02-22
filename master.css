@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+    align: center;
+}
+footer{ background-color: #000; 
+         color:#fff;
+         font-size:14px; }
+#left{
+    float:center;
+}
+#right{
+    float:center;
+    }
+.responsive {
+  width: 100%;
+  height: auto;
+}
