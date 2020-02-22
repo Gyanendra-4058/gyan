@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>GYANENDRA KUMAR</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googlrapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="master.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <!-- this is a code of nav bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class ="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class ="navbar-brand">GYANENDRA KUMAR</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+             <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span>Home</span></a></li>
+                <li><a href="#About"><span>About Me</span></a></li>
+            <li><a href="#Achievement"><span></span>Achievements</a></li>
+            <li><a href="#Courses"><span></span>Courses Material</a></li>
+            <li><a href="#Contact"><span></span>Contact Me</a></li>
+            </ul>
+             </div>
+            </div>
+        </div>
+        </nav>
+        <!-- end of navbar code -->
+      <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img\1.jpg"style="width:100%" class="img-responsive">
+  <div class="text"><h3>Gyanendra Kumar</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img\2.jpg" style="width:100%"class="img-responsive" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img\3.jpg" style="width:100%"class="img-responsive" >
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!--main body content-->
+    <center>
+        
+<div id ="About">
+    <center><h1>About Me</h1></center>
+    <div class="text-primary">If  you are reading this section ,then I hope  you are intrested in me.<br> So let me introduce  myself first .<br>
+    Hi I am an Mechanical engineering student of IIT KANPUR  currently persuing <br> in First Year . I cleared Jee in 2019 and now join IIT Kanpur in search of better future.<br> I am enthusiast  in coding  especially 
+    competitive coding. I like watching movies and T.V series .</div>
+        </div>
+        <div id ="Achievement">
+            <h1>Achievements</h1>
+            <div class="text-warning">Will be Updated soon...(As no achievement so far)</div>
+        </div>
+        
+        <div id ="Courses">
+            <center><h1>Courses Material</h1></center>
+        <h3>First year IC courses</h3>
+        <table style="width:100%">
+  <tr>
+       <th align="center">S.No</th>
+       <th align="center">Course name</th>
+       <th align="center">Lecture notes</th>
+       <th align="center">Assignments</th>
+       <th align="center">Previous year papers</th>
+  </tr>
+  <tr>
+    <td align="center">1</td>
+    <td><h4>Mathematics-1 (MTH-101A)<br></h4></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1kuCLNDV3V5br-1YjEkvrjKwIadzd62_A">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=12B73kjNUPRL2emPrB81RyLQn6ZtdryUm">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=15IwAy8JeP6uG7TO6e4wfMjN8ZEslB73J">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><h4>FUNDAMENTAL OF COMPUTING (ESC-101A)<br></h4></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1ykR6gNo1tZ7PfW4vLWViEDfMNNy9F7Dc">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1Kg4t-AtRLEkc-_tL9LCQ-AllIMfnfAIK">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1krACYa9ezrNo6gnOZn6EcPf6tGsANwxK">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td><h4>ENGINEERING GRAPHICS (TA-101A)<br></h4></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1bssu3jqbyAZPc_oMaSaLCxeD3-qLvuVg">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1eHrf30-xbEpmL3dEegknaiufuXTkW3nm">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1YvaUntG5zeJMTd1P1XP2MmLUR9lXYnqP">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td><h4>INTRODUCTION TO BIOLOGY (LIF-101A)<br></h4></td>
+    <td align="center"><a href="https://drive.google.com/open?id=17rU2YyDqtxmli36j9pcPBWnGkieAsBS-">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=12SvRxwki2PV7pUHgJstW6ck0eT3Atp9N">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1Id_0puypiIlDY-CNdJkQ09yvCkomzYlL">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td> <h4>PHYSICS-I (PHY-102A)<br></h4></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td><h4>GENERAL CHEMISTRY (CHM-102A)<br></h4></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td ><h4>PHYSICS-II (PHY-103A)<br></h4></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1gipautxxWmsea0scrpumVW3pPo0UjfDS">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=1G9JdoOcGtuuufgiyzHfxvQqXaR9yIDMk">Click Here</a></td>
+    <td align="center"><a href="https://drive.google.com/open?id=17AAVZR_ZJ8j0SpZBS-QnR8dSfEtW1J2Z">Click Here</a></td>
+  </tr>
+  <tr>
+    <td align="center">8</td>
+    <td ><h4>MATHEMATICS - II (MTH-102A)<br></h4></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+    <td align="center"><a href="#">Click Here</a></td>
+  </tr>
+</table>
+         </div>
+  
+
+<div id ="Contact"><center><h1>Contact Me</h1></center>
+                   <div id="left"> <img src="img\gyan.png" alt=" Gyanendra Kumar" class="img-circle" "></div>
+                 <div id="right"> 
+                     <h3>Gyanendra Kumar (UG19 ME)</h3>
+                     <h4>E-mail :- krgyan@iitk.ac.in</h4>
+                     <h4>If you want to meet me come to B-102 Hall-13 or call me .(But you don't have my number)</h4>
+                    <h4>Connect with me on <a href="https://www.facebook.com/profile.php?id=100012843422179">
+                        <button style="font-size:24px">
+                            <i class="fa fa-facebook-square">
+                                </i>
+                            </button>
+                        </a></h4>
+            </div>
+         </div>
+         <footer>
+            <div class="container">
+                <p> "Copyright © Gyanendra Kumar. All Rights Reserved | Contact Us: krgyan@iitk.ac.in". </p>
+            </div>
+        </footer>
+    </center>
+    </body>
+</html>
