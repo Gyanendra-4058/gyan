@@ -93,25 +93,157 @@
           
             
             <li class="nav-item" style="font-size: 22px">
-              <a href="https://www.facebook.com/iitksports/" class="ml-3 text-white btn-facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100012843422179&sk=photos_all" class="ml-3 text-white btn-facebook"><i class="fab fa-facebook"></i></a>
             </li>
             
             <li class="nav-item" style="font-size: 22px">
-              <a href="https://www.instagram.com/iitksports/?hl=en" class="ml-3 text-white btn-instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/its_gyanendra_/?hl=en" class="ml-3 text-white btn-instagram"><i class="fab fa-instagram"></i></a>
             </li>
             
             <li class="nav-item" style="font-size: 22px">
-              <a href="https://www.linkedin.com/company/games-and-sports-council-iit-kanpur" class="ml-3 btn-linkedin"><i class="fab fa-linkedin"></i></a>
+              <a href="https://in.linkedin.com/in/gyanendra-kumar-iitk" class="ml-3 btn-linkedin"><i class="fab fa-linkedin"></i></a>
             </li>
             
             <li class="nav-item" style="font-size: 22px">
-              <a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" class="ml-3 btn-youtube"><i class="fab fa-youtube"></i></a>
+              <a href="mailto:gyan4058@gmail.com" class="ml-3 btn-envelope"><i class="fab fa-envelope"></i></a>
             </li>
             
           
         </ul>
       </div>
     </nav>
+	  
+	  
+	  <section class="cover p-lg-5 p-md-5 p-3">
+  <div class="bgImage">
+    
+    
+      
+        <div class="coverImage" style="background-image: url('/gns-council/images/covers/1.jpg')"></div>
+        <div class="coverImage" style="background-image: url('/gns-council/images/covers/2.jpg')"></div>
+        <div class="coverImage" style="background-image: url('/gns-council/images/covers/3.jpg')"></div>
+        
+      
+    
+  </div>
+
+  <div class="container h-100">
+    <div class="d-flex h-100 align-items-center">
+      <div class="coverInfo">
+          <h1 class="h1 text-light">Games and Sports Council</h1>
+          <p class="text-light sub-heading">Indian Institute of Technology, Kanpur</p>
+          <a href="/contact" class="btn btn-outline-light">Our Team</a>      
+      </div>
+      
+          
+      
+    </div>
+    
+  </div>
+</section>
+
+<style type="text/css">
+  .cover{
+    margin-top: -80px;
+    position: relative;
+    height: 500px;
+    
+    
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  }
+
+
+  .cover .bgImage{
+    z-index: -1;
+    width: 100%;
+  }
+
+  .cover .bgImage:after{
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(117, 22, 22, 0.4);
+  }
+
+  .cover .coverInfo{
+    z-index: 1;
+  }
+
+  
+    
+      .cover .bgImage div.coverImage{
+        height: 100%;
+        background-size: cover;
+        position: absolute;
+        animation: slide 15s infinite;
+        opacity: 0;
+      }
+
+      
+        
+        .bgImage > div.coverImage:nth-child(2) {
+          animation-delay: 5s;
+        }
+        
+      
+        
+        .bgImage > div.coverImage:nth-child(3) {
+          animation-delay: 10s;
+        }
+        
+      
+        
+
+        
+      
+
+      @keyframes slide {
+        10% {
+          opacity: 1;
+        }
+        20% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+    
+
+  
+
+  .coverImageStatic{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .coverImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    right: 0;
+    z-index: -1;
+  }
+
+
+
+  @keyframes breath {
+    0%   { background-size: 100% auto; }
+    50% { background-size: 140% auto; }
+    100% { background-size: 100% auto; }
+  }
+</style>
+	  
+	  
 	
 		  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
